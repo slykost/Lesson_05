@@ -1,5 +1,5 @@
 print(' A')
-h = 7
+h = int(input())
 w = 13
 for i in range(h):
     for j in range(w):
@@ -15,6 +15,8 @@ for i in range(h):
 
 print()
 print(' B')
+h = int(input())
+w = 13
 for i in range(h):
     for j in range(w):
         if (
@@ -30,7 +32,7 @@ for i in range(h):
 
 print()
 print(' С')
-h = 13
+h = int(input())
 w = 13
 H = h // 2
 W = w // 2
@@ -58,9 +60,8 @@ for i in range(h):
 
 print()
 print(' D')
-h = 13
+h = int(input())
 w = 13
-
 for i in range(h):
     for j in range(w):
         if i <= H:

@@ -1,5 +1,6 @@
+h = int(input('Введите высоту фигуры: '))
+print()
 print(' A')
-h = int(input())
 w = (h * 2) - 1
 for i in range(h):
     for j in range(w):
@@ -14,8 +15,9 @@ for i in range(h):
     print()
 
 print()
+h = int(input('Введите высоту фигуры: '))
+print()
 print(' B')
-h = int(input())
 w = (h * 2) - 1
 for i in range(h):
     for j in range(w):
@@ -31,8 +33,9 @@ for i in range(h):
     print()
 
 print()
-print(' С')
-h = int(input())
+h = int(input('Введите высоту фигуры: '))
+print()
+print(' C')
 if h % 2 == 0:
     h = h + 1
 w = h
@@ -61,8 +64,9 @@ for i in range(h):
     print()
 
 print()
+h = int(input('Введите высоту фигуры: '))
+print()
 print(' D')
-h = int(input())
 if h % 2 == 0:
     h = h + 1
 w = h

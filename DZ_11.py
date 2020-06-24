@@ -1,6 +1,6 @@
 print(' A')
 h = int(input())
-w = 13
+w = (h * 2) - 1
 for i in range(h):
     for j in range(w):
         if (
@@ -16,7 +16,7 @@ for i in range(h):
 print()
 print(' B')
 h = int(input())
-w = 13
+w = (h * 2) - 1
 for i in range(h):
     for j in range(w):
         if (
@@ -33,7 +33,9 @@ for i in range(h):
 print()
 print(' С')
 h = int(input())
-w = 13
+if h % 2 == 0:
+    h = h + 1
+w = h
 H = h // 2
 W = w // 2
 for i in range(h):
@@ -61,7 +63,11 @@ for i in range(h):
 print()
 print(' D')
 h = int(input())
-w = 13
+if h % 2 == 0:
+    h = h + 1
+w = h
+H = h // 2
+W = w // 2
 for i in range(h):
     for j in range(w):
         if i <= H:
